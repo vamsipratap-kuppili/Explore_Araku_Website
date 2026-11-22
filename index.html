@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Explore Araku – Discover the Beauty of Araku Valley</title>
+<meta name="description" content="Plan your trip to Araku Valley, Andhra Pradesh: places, waterfalls, coffee plantations, food, stays and itineraries.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVIGATION -->
+<header class="nav" id="nav">
+  <a href="#home" class="logo" data-link>🌿 EXPLORE <span>ARAKU</span></a>
+  <button class="burger" id="burger" aria-label="Toggle menu">☰</button>
+  <nav id="menu">
+    <a href="#home" data-link>Home</a>
+    <a href="#places" data-link>Places</a>
+    <a href="#todo" data-link>Things to Do</a>
+    <a href="#food" data-link>Food</a>
+    <a href="#stay" data-link>Stay</a>
+    <a href="#gallery" data-link>Gallery</a>
+    <a href="#about" data-link>About</a>
+  </nav>
+</header>
+
+<main>
+  <!-- HOME -->
+  <section class="view" id="home">
+    <div class="hero">
+      <div class="hero-text">
+        <h1>EXPLORE ARAKU</h1>
+        <p>Discover the Beauty of Araku Valley</p>
+        <div class="btns">
+          <a href="#places" class="btn" data-link>Explore Places</a>
+          <a href="#about" class="btn ghost" data-link>Plan Your Trip</a>
+        </div>
+      </div>
+    </div>
+    <div class="wrap intro">
+      <div>
+        <h2>Welcome to the Valley in the Clouds</h2>
+        <p>Araku Valley sits about 1,000 m above sea level in the Eastern Ghats of Andhra Pradesh, roughly 110 km from Visakhapatnam. Mist-covered hills, gushing waterfalls, silver-oak shaded coffee estates and the vibrant culture of the Adivasi (tribal) communities make it one of South India's most loved hill getaways.</p>
+        <p>Ride the famous Vistadome train through 50+ tunnels, walk into the limestone wonder of Borra Caves, sip Araku's GI-tagged Arabica coffee and watch the Dhimsa dance at sunset.</p>
+      </div>
+      <div class="stats">
+        <div><b>~1,000 m</b>Elevation</div><div><b>15+</b>Top Places</div>
+        <div><b>Oct–Feb</b>Best Season</div><div><b>110 km</b>From Vizag</div>
+      </div>
+    </div>
+    <div class="wrap"><h2 class="center">Featured Places</h2><div class="grid" id="featured"></div></div>
+  </section>
+
+  <!-- PLACES -->
+  <section class="view" id="places"><div class="wrap">
+    <h2 class="center">Explore Places</h2><p class="center sub">Waterfalls, caves, viewpoints and plantations across the valley</p>
+    <div class="grid" id="placeGrid"></div></div></section>
+
+  <!-- PLACE DETAIL -->
+  <section class="view" id="place"><div class="wrap" id="placeDetail"></div></section>
+
+  <!-- THINGS TO DO -->
+  <section class="view" id="todo"><div class="wrap">
+    <h2 class="center">Things to Do</h2><p class="center sub">Seven experiences that define a trip to Araku</p>
+    <div class="grid" id="todoGrid"></div></div></section>
+
+  <!-- FOOD -->
+  <section class="view" id="food"><div class="wrap">
+    <h2 class="center">Food of Araku</h2><p class="center sub">Andhra flavours and traditional tribal cuisine</p>
+    <div class="tabs" id="foodTabs"></div><div class="grid" id="foodGrid"></div></div></section>
+
+  <!-- STAY -->
+  <section class="view" id="stay"><div class="wrap">
+    <h2 class="center">Where to Stay</h2><p class="center sub">Approximate prices per night; they vary by season and weekends</p>
+    <div class="grid" id="stayGrid"></div></div></section>
+
+  <!-- GALLERY -->
+  <section class="view" id="gallery"><div class="wrap">
+    <h2 class="center">Gallery</h2>
+    <div class="tabs" id="galTabs"></div><div class="gallery" id="galGrid"></div></div></section>
+
+  <!-- ABOUT / TRAVEL INFO / MAP -->
+  <section class="view" id="about"><div class="wrap">
+    <h2 class="center">About Araku &amp; Travel Information</h2>
+    <p class="center sub">Araku Valley lies in Alluri Sitarama Raju district, home to Bonda, Gadaba, Konda Dora and other tribal communities. Araku Coffee, grown by tribal farmers, carries a Geographical Indication (GI) tag.</p>
+    <div class="grid two" id="info"></div>
+    <h3 class="sec">Suggested Itineraries</h3>
+    <div class="grid two" id="itin"></div>
+    <h3 class="sec">Map of Major Attractions</h3>
+    <div class="tabs" id="mapTabs"></div>
+    <iframe class="map" id="mainMap" title="Araku map" loading="lazy"></iframe>
+  </div></section>
+</main>
+
+<!-- FOOTER -->
+<footer>
+  <div class="wrap fgrid">
+    <div><h4>🌿 Explore Araku</h4><p>Your friendly guide to the misty hills, waterfalls and coffee country of Araku Valley, Andhra Pradesh.</p></div>
+    <div><h4>Quick Links</h4><a href="#places" data-link>Places</a><a href="#todo" data-link>Things to Do</a><a href="#stay" data-link>Stay</a><a href="#about" data-link>Travel Info</a></div>
+    <div><h4>Contact</h4><p>📍 Araku Valley, Alluri Sitarama Raju Dist., Andhra Pradesh 531149<br>📞 +91 6304668063,+91 9133604807<br>✉️ vamsipratap79@gmail.com</p></div>
+    <div><h4>Follow Us</h4><div class="social"><a href="#" aria-label="Facebook">f</a><a href="#" aria-label="Instagram">in</a><a href="#" aria-label="YouTube">▶</a><a href="#" aria-label="X">𝕏</a></div></div>
+  </div>
+  <p class="copy">© 2026 Explore Araku. All rights reserved. Prices and timings are indicative—please confirm locally.</p>
+</footer>
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lb"><button id="lbClose" aria-label="Close">✕</button><img id="lbImg" alt=""></div>
+<button class="top" id="top" aria-label="Back to top">↑</button>
+<script src="script.js"></script>
+</body>
+</html>
